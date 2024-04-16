@@ -19,7 +19,7 @@ public function createPost(Request $request)
     $post->title = $title;
     $post->content = $content;
     $post->status = "published";
-    $post->category_id => $categoryId
+    $post->category_id => $categoryId;
     $post->save();
 
    
